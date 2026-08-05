@@ -1,6 +1,6 @@
 # ACPO
 
-This repository contains the implementation for **Adaptive Clip Policy Optimization (ACPO)** from the paper **"What are Key Factors for Updates in RL for LLM Reasoning?"**
+This repository contains the implementation for **Adaptive Clip Policy Optimization (ACPO)** from the paper **["What are Key Factors for Updates in RL for LLM Reasoning?"](https://arxiv.org/abs/2606.22570)**.
 
 ACPO is built on top of [verl](https://github.com/volcengine/verl). It adds variance-adaptive clipping for GRPO/RLVR updates, together with the baselines used in the paper: DAPO, CISPO, AR-Lopti, and entropy-based selective token updates.
 
